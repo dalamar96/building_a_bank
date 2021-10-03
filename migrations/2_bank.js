@@ -1,5 +1,5 @@
-const Migrations = artifacts.require("Migrations");
+const SmartBankAccount = artifacts.require("SmartBankAccount");
 
-module.exports = function (deployer) {
-  deployer.deploy(Migrations);
+module.exports = function(deployer) {
+    deployer.deploy(SmartBankAccount);
 };
